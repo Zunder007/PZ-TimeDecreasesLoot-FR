@@ -1,0 +1,55 @@
+Sandbox_FR = {
+    Sandbox_DecreasingLoot = "Time Decreases Loot",
+    
+
+    Sandbox_DecreasingLootStartDay = "Start Day",
+    Sandbox_DecreasingLootStartDay_tooltip = "The day the chance to remove items will start increasing proportionally every day, from the starting chance setting to the peak chance setting.",
+
+    Sandbox_DecreasingLootPeakDay = "Peak Day",
+    Sandbox_DecreasingLootPeakDay_tooltip="The day the loot will stop decreasing and after which the peak chance to remove items is always applied.<br>Must be higher than the start day option!",
+
+    Sandbox_DecreasingLootOriginalChance = "Starting chance to remove items (%)",
+    Sandbox_DecreasingLootOriginalChance_tooltip = "Applied before and on start day.<br>Must be lower than the peak chance option!"
+
+    Sandbox_DecreasingLootMaxChance = "Peak chance to remove items (%)",
+    Sandbox_DecreasingLootMaxChance_tooltip = "Applied after and on peak day.<br>Must be higher than the starting chance option!",
+
+    Sandbox_DecreasingLootFoodChanceModifier = "Food Chance Modifier (%)",
+    Sandbox_DecreasingLootFoodChanceModifier_tooltip = "The number that will be added to the chance to remove items, for food items.<br>Can be negative.<br>Will make the actual chance go above the peak chance even after peak day, or below the original chance even before start day.",
+
+    
+    Sandbox_DecreasingLootLiteratureChanceModifier = "Literature Chance Modifier (%)",
+    Sandbox_DecreasingLootLiteratureChanceModifier_tooltip = "The number that will be added to the chance to remove items, for Literature items.<br>Can be negative.<br>Will make the actual chance go above the peak chance even after peak day, or below the original chance even before start day.",
+
+    Sandbox_DecreasingLootMeleeWeaponsChanceModifier = "Melee Weapons Chance Modifier (%)",
+    Sandbox_DecreasingLootMeleeWeaponsChanceModifier_tooltip = "The number that will be added to the chance to remove items, for melee weapons.<br>Can be negative.<br>Will make the actual chance go above the peak chance even after peak day, or below the original chance even before start day.",
+
+    Sandbox_DecreasingLootRangedWeaponsChanceModifier = "Ranged Weapons Chance Modifier (%)",
+    Sandbox_DecreasingLootRangedWeaponsChanceModifier_tooltip = "The number that will be added to the chance to remove items, for ranged weapons.<br>Can be negative.<br>Will make the actual chance go above the peak chance even after peak day, or below the original chance even before start day.",
+
+    Sandbox_DecreasingLootAmmoChanceModifier = "Ammo Chance Modifier (%)",
+    Sandbox_DecreasingLootAmmoChanceModifier_tooltip = "The number that will be added to the chance to remove items, for ammunition.<br>Can be negative.<br>Will make the actual chance go above the peak chance even after peak day, or below the original chance even before start day.",
+
+
+
+    Sandbox_DecreasingLootTriggerOnProximity = "Trigger Item Remover on proximity",
+    Sandbox_DecreasingLootTriggerOnProximity_tooltip = "When enabled, the Item Remover will trigger when the player comes close to containers, INSTEAD of when the map cells load.<br>Pro: does not trigger all the containers of the map before you explore them.<br>Con: Some containers will appear to have items (shelves with books on them) but when you get close will have their items removed and could actually become empty.",
+
+    Sandbox_DecreasingLootEnhancedVariance = "Enhanced loot variance",
+    Sandbox_DecreasingLootEnhancedVariance_tooltip = "When enabled, the chance of removing item becomes an average of randoms instead of strict chance.<br>This means the difference between the loot of different containers can be much higher, but with the average chance of removing items still staying the same.<br>Example: 20% chance becomes a random chance between 0% and 40%, once per container. 50% becomes 0%-100%. 65% becomes 30%-100%. 95% becomes 90%-100%<br>Not recommended if the time between start day and peak day is low.",
+
+    Sandbox_DecreasingLootTriggerOnVehicleParts = "Trigger Item Remover on vehicles",
+    Sandbox_DecreasingLootTriggerOnVehicleParts_tooltip= "Check this if you want vehicle loot to be affected by the Item Remover.<br>Affects gloveboxes, seats, trunks, and any other vehicle part that can contain items.",
+
+    Sandbox_DecreasingLootTriggerOnDeadZombies = "Trigger Item Remover on dead bodies",
+    Sandbox_DecreasingLootTriggerOnDeadZombies_tooltip = "Check this if you want zombie loot to be affected by the Item Remover.<br>This won't affect attached/lodged weapons and worn clothes and accessories.<br>WARNING: This should also affect dead bodies of players and NPCs !",
+
+    
+    Sandbox_DecreasingLootTriggerOnHouseStories = "Trigger Item Remover on House Stories",
+    Sandbox_DecreasingLootTriggerOnHouseStories_tooltip = "Check this if you want the items spawned by Randomized House Stories to be affected by the Item Remover.<br>This affects the items that spawn ON THE FLOOR (or other surfaces), not in containers.",
+
+
+    Sandbox_DecreasingLootExceptionsList = "Item Exceptions List",
+    Sandbox_DecreasingLootExceptionsList_tooltip = "A semicolon separated list of items that the Item Remover will ignore.<br>Example: Base.Saw;Base.Hammer;Base.Nails ",
+
+}
